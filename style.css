@@ -1,0 +1,34 @@
+/* Пункт 7: шрифт для всього документа */
+body {
+  font-family: monospace;
+}
+
+/* Оформлення основного контейнера */
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Пункт 5: id="header" */
+#header {
+  text-align: center;
+}
+
+/* Пункт 5: class="title" */
+.title {
+  color: #0091ff;
+}
+
+/* Пункт 5: параграфи з атрибутом span="text" */
+p[span="text"] {
+  font-size: 16px;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+/* Пункт 6: стилізація ВСІХ span */
+span {
+  text-decoration: underline;
+  color: #0091ff;
+}
